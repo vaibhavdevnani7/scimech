@@ -17,8 +17,12 @@ while True():
         send("w")
     elif keyboard.is_pressed("s"):
         send("s") 
+    elif keyboard.is_pressed("b"):
+        send("b") 
     elif keyboard.is_pressed("e"):
         send("e") 
+    elif keyboard.is_pressed("n"):
+        send("n") 
     elif keyboard.is_pressed("q"):
         send("q")
     elif keyboard.is_pressed("d"):
@@ -37,6 +41,8 @@ while True():
         send("h") 
     elif keyboard.is_pressed("r"):
         send("r") 
+    elif keyboard.is_pressed("f"):
+        send("f") 
     else:
         pass     
 
